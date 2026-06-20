@@ -78,6 +78,13 @@
       animation: fadeDown 0.8s ease both;
     }
 
+    .logo-img {
+      width: 150px;
+      height: auto;
+      margin-bottom: 4px;
+      filter: drop-shadow(0 6px 20px rgba(201,168,76,0.25));
+    }
+
     .header .eyebrow {
       font-family: 'DM Sans', sans-serif;
       font-size: 11px;
@@ -403,8 +410,8 @@
 <div class="wrapper">
 
   <div class="header">
+    <img src="logo.png" alt="The Rideau Condominium" class="logo-img">
     <p class="eyebrow">1035 Bank Street, Ottawa</p>
-    <h1>The <span>Rideau</span></h1>
     <div class="divider"></div>
   </div>
 
@@ -479,7 +486,7 @@
     "Canal Lounge":    { pre: "https://forms.gle/r1SRDxgCcrAUxAdx6", post: "https://forms.gle/V9YWDTKNSHsgbqi7A" }
   };
 
-  var REPORT_URL = "https://docs.google.com/spreadsheets/d/1VDLYfIIq5SAmUPss1cZgfyvVcF5sYaPmRSuIThnu1_w/edit";
+  var REPORT_URL = "https://docs.google.com/spreadsheets/d/1u8iI6Z7pe7EdnYeCib3cSuZ5wh4U3RhFBqfiAgoJxKk/edit";
   var PASSWORD   = "12345";
 
   function go(type) {
